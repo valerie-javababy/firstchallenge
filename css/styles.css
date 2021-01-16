@@ -1,0 +1,113 @@
+/******HTML ELEMENTS*******/
+
+body{
+    background-color:  hsl(185, 75%, 39%);
+    text-align: center;
+    background-image: url('../images/bg-pattern-bottom.png');
+    background-position: bottom left; 
+}
+
+span.gray{
+    opacity: 0.5;
+    font-weight: normal;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+}
+
+span.gray2{
+    color: hsl(0, 0%, 59%);
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+span.gray3{
+    font-weight: normal;
+    font-size: 15px;
+    color: hsl(0, 0%, 59%);
+}
+
+
+/******CLASSES*******/
+
+/*.bg-pattern-card{
+    width: 300px;
+    position: absolute;
+    right: 310px;
+    padding-top: 200px;
+    padding-right: 00px;
+    border: 2px solid white;
+    border-top-left-radius: 25px;
+  */  
+
+.top{
+    width: 300px;
+    height: 120px;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    margin-left: 40%;
+    border: white 0px solid;
+    background-image: url('../images/bg-pattern-card.png');
+    
+}
+
+.middle{
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    margin-left: 40%;
+    
+    
+}
+
+.bottom{
+    background-color: white;
+    width: 300px;
+    height: 80px;
+    border-radius: 0 0 10px 10px;
+    margin-left: 40%;
+    border-top: solid 1px gray;
+}
+
+.man{
+    position: relative;
+    top: 70px;
+    border-radius: 100px;
+    border: white 4px solid;
+    
+}
+
+.text1{
+    margin: 0 75px;
+    padding-top: 75px;
+    width: 50%;
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: hsl(229, 23%, 23%);
+}
+
+
+.text2{
+    margin: 0 10px;
+    display: inline-block;
+    width: 20%;
+    padding-top: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+    color: hsl(229, 23%, 23%);
+}
+.binder{
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.attribution{
+    color: hsl(227, 10%, 46%);
+    padding-top: 50px;
+    font-size: 0.75rem
+}
+
